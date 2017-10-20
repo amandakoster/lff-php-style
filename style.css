@@ -6,17 +6,23 @@
 html {font-size: 1em;}
 
 body {
-  font-family: 'Open Sans';
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
   font-weight: 400;
   /* line-height: 1; */
 }
 
 /* p {margin-bottom: 1.3em;} */
 
-h1, h2, h3, h4 {
-  font-family: ;
+h1, h2,  h4 {
+    font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
   font-weight: inherit;
   line-height: 1;
+}
+
+h3 {
+font-family: Platform-Medium,sans-serif;
+font-weight: inherit;
+line-height: 1;
 }
 
 h1 {
@@ -32,22 +38,85 @@ h4 {font-size: 1.618em;}
 
 small, .font_small {font-size: 0.618em;}
 
-button {
+.btn-radio {
+    cursor: pointer !important;
+    display: block;
+}
+
+.btn-red {
     float: left;
     display: block;
+    background:#FC5B62;
+    color: white;
+    cursor: pointer !important;
+    -webkit-transition: background 0.3s, border-color 0.3s !important;
+    -moz-transition: background 0.3s, border-color 0.3s !important;
+    transition: background 0.3s, border-color 0.3s !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    border: 2px solid transparent !important;
+    border-radius: 4px !important;
+    width: auto !important;
+    letter-spacing: undefined !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    font-weight: normal !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    min-width: 51.77708763999664px !important;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-blue {
+    background: #1259a1;
+    color: white;
+    cursor: pointer !important;
+    -webkit-transition: background 0.3s, border-color 0.3s !important;
+    -moz-transition: background 0.3s, border-color 0.3s !important;
+    transition: background 0.3s, border-color 0.3s !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    border: 2px solid transparent !important;
+    border-radius: 4px !important;
+    width: auto !important;
+    letter-spacing: undefined !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    font-weight: normal !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    min-width: 51.77708763999664px !important;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
 }
 
 .grey-background {
     background-color: #F8F8F8;
-    height: 200px;
-    width: 100px;
+    height: 50px;
+    width: 500px;
+    float: left;
     display: block;
 }
 
 .white-background {
     background-color: #FFFFFF;
-    height: 200px;
-    width: 100px%;
-    /* border: solid black; */
+    height: 50px;
+    width: 50px;
+    float: left;
+    display: block;
 }
 
