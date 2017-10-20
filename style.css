@@ -44,8 +44,6 @@ small, .font_small {font-size: 0.618em;}
 }
 
 .btn-red {
-    float: left;
-    display: block;
     background:#FC5B62;
     color: white;
     cursor: pointer !important;
@@ -75,7 +73,7 @@ small, .font_small {font-size: 0.618em;}
 }
 
 .btn-blue {
-    background: #1259a1;
+    background: #0d3d78;
     color: white;
     cursor: pointer !important;
     -webkit-transition: background 0.3s, border-color 0.3s !important;
@@ -105,13 +103,13 @@ small, .font_small {font-size: 0.618em;}
 
 button:hover {
     filter: brightness(120%);
+    float: left;
 }
 
 .grey-background {
     background-color: #F8F8F8;
     height: 50px;
     width: 500px;
-    float: left;
     display: block;
 }
 
@@ -119,7 +117,6 @@ button:hover {
     background-color: #FFFFFF;
     height: 50px;
     width: 50px;
-    float: left;
     display: block;
 }
 
