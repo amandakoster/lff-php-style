@@ -101,7 +101,10 @@ small, .font_small {font-size: 0.618em;}
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
 
+button:hover {
+    filter: brightness(120%);
 }
 
 .grey-background {
