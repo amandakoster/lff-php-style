@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 5px;
+    color: #3e4751;
 }
 
 html {font-size: 1em;}
@@ -103,6 +104,32 @@ small, .font_small {font-size: 0.618em;}
 
 button:hover {
     filter: brightness(130%);
+}
+a {
+    display: block;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    filter: brightness(0%);
 }
 
 .grey-background {
