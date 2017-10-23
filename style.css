@@ -2,7 +2,14 @@
     padding: 0;
     margin: 5px;
     color: #3e4751;
+    box-sizing: border-box;
 }
+
+/* button {
+    float: left;
+    clear: left;
+    position: relative;
+} */
 
 html {font-size: 1em;}
 
@@ -39,6 +46,69 @@ h4 {font-size: 1.5em;}
 
 small, .font_small {font-size: 0.618em;}
 
+.container-color {
+    display: block;
+    float:left;
+}
+
+.container-button-one {
+    display: block;
+    float:left;
+}
+
+.container-button-two {
+    display: block;
+    float:left;
+}
+
+.container-background {
+    display: block;
+    float:left;
+}
+
+.container-radio {
+    display: block;
+    float:left;
+}
+
+.container-anchor {
+    display: block;
+    float:left;
+}
+
+.colors {
+    width: 100px;
+    height: 100px;
+    color: white;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.tan {
+    background-color: #D1AB8C;
+}
+
+.lt-blue {
+    background-color: #B1C6D2;
+}
+
+.med-blue {
+    background-color: #5E7386;
+}
+
+.dk-blue {
+    background-color: #373E50;
+}
+
+.med-gray {
+    background-color: #B5B3B4;
+}
+
+.dk-gray {
+    background-color: #545454;
+}
+
 .btn-radio {
     cursor: pointer !important;
     display: block;
@@ -48,10 +118,10 @@ small, .font_small {font-size: 0.618em;}
     background:#FC5B62;
     color: white;
     cursor: pointer !important;
-    -webkit-transition: background 0.3s, border-color 0.3s !important;
+    /* -webkit-transition: background 0.3s, border-color 0.3s !important;
     -moz-transition: background 0.3s, border-color 0.3s !important;
-    transition: background 0.3s, border-color 0.3s !important;
-    position: relative !important;
+    transition: background 0.3s, border-color 0.3s !important; */
+    /* position: relative !important; */
     text-align: center !important;
     text-decoration: none !important;
     text-decoration-line: none;
