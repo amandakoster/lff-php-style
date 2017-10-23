@@ -2,6 +2,7 @@
     padding: 0;
     margin: 5px;
     color: #3e4751;
+    box-sizing: border-box;
 }
 
 html {font-size: 1em;}
@@ -9,7 +10,6 @@ html {font-size: 1em;}
 body {
   font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
   font-weight: 400;
-  /* line-height: 1; */
 }
 
 p {margin-bottom: 0.5em;}
@@ -39,72 +39,134 @@ h4 {font-size: 1.5em;}
 
 small, .font_small {font-size: 0.618em;}
 
+button {
+    transition-duration: 0.4s;
+    color: white;
+    cursor: pointer !important;
+    /* -webkit-transition: background 0.3s, border-color 0.3s !important;
+    -moz-transition: background 0.3s, border-color 0.3s !important;
+    transition: background 0.3s, border-color 0.3s !important; */
+    /* position: relative !important; */
+    text-align: center !important;
+    text-decoration: none !important;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    border: 2px solid transparent !important;
+    border-radius: 4px !important;
+    width: auto !important;
+    letter-spacing: undefined !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    font-weight: normal !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    min-width: 51.77708763999664px !important;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.container-color .container-button-one {
+    display: block;
+    float:left;
+}
+
+.container-button-one {
+    display: block;
+    float:left;
+}
+
+.container-button-two {
+    display: block;
+    float:left;
+}
+
+.container-background {
+    display: block;
+    float:left;
+}
+
+.container-radio {
+    display: block;
+    float:left;
+}
+
+.container-anchor {
+    display: block;
+    float:left;
+}
+
+.colors {
+    width: 100px;
+    height: 100px;
+    color: white;
+    float: left;
+    display: block;
+}
+
+.tan {
+    background-color: #D1AB8C;
+}
+
+.lt-blue {
+    background-color: #B1C6D2;
+}
+
+.med-blue {
+    background-color: #5E7386;
+}
+
+.dk-blue {
+    background-color: #373E50;
+}
+
+.med-gray {
+    background-color: #B5B3B4;
+}
+
+.dk-gray {
+    background-color: #545454;
+}
+
 .btn-radio {
     cursor: pointer !important;
     display: block;
 }
 
-.btn-red {
-    background:#FC5B62;
-    color: white;
-    cursor: pointer !important;
-    -webkit-transition: background 0.3s, border-color 0.3s !important;
-    -moz-transition: background 0.3s, border-color 0.3s !important;
-    transition: background 0.3s, border-color 0.3s !important;
-    position: relative !important;
-    text-align: center !important;
-    text-decoration: none !important;
-    text-decoration-line: none;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
-    border: 2px solid transparent !important;
-    border-radius: 4px !important;
-    width: auto !important;
-    letter-spacing: undefined !important;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
-    font-weight: normal !important;
-    padding-right: 16px !important;
-    padding-left: 16px !important;
-    min-width: 51.77708763999664px !important;
-    background-image: none;
-    outline: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.btn-lt-blue {
+    background:#B1C6D2;
 }
 
-.btn-blue {
-    background: #0d3d78;
-    color: white;
-    cursor: pointer !important;
-    -webkit-transition: background 0.3s, border-color 0.3s !important;
-    -moz-transition: background 0.3s, border-color 0.3s !important;
-    transition: background 0.3s, border-color 0.3s !important;
-    position: relative !important;
-    text-align: center !important;
-    text-decoration: none !important;
-    text-decoration-line: none;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
-    border: 2px solid transparent !important;
-    border-radius: 4px !important;
-    width: auto !important;
-    letter-spacing: undefined !important;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
-    font-weight: normal !important;
-    padding-right: 16px !important;
-    padding-left: 16px !important;
-    min-width: 51.77708763999664px !important;
-    background-image: none;
-    outline: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.btn-lt-blue:hover {
+    background-color: #373E50
 }
 
-button:hover {
-    filter: brightness(130%);
+.btn-dk-blue {
+    background: #373E50;
 }
+
+.btn-dk-blue:hover {
+    background-color: #B1C6D2
+}
+
+.btn-tan {
+    background: #D1AB8C;
+}
+
+.btn-tan:hover {
+    background-color: #B1C6D2
+}
+
+.btn-med-gray {
+    background: #B5B3B4;
+}
+
+.btn-med-gray:hover {
+    background-color: #545454;
+}
+
 
 a {
     display: block;
