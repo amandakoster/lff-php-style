@@ -63,10 +63,6 @@ small, .font_small {font-size: 0.618em;}
     transition-duration: 0.4s;
     color: white;
     cursor: pointer !important;
-    /* -webkit-transition: background 0.3s, border-color 0.3s !important;
-    -moz-transition: background 0.3s, border-color 0.3s !important;
-    transition: background 0.3s, border-color 0.3s !important; */
-    /* position: relative !important; */
     text-align: center !important;
     text-decoration: none !important;
     text-decoration-line: none;
