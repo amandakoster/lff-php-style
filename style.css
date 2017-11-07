@@ -59,7 +59,8 @@ small, .font_small {font-size: 0.618em;}
 
 /* BUTTONS */
 
-.btn-lt-blue, .btn-dk-blue, .btn-tan, .btn-med-gray {
+/* rectangle buttons */
+.btn-lt-blue, .btn-tan, .btn-med-gray {
     transition-duration: 0.4s;
     color: white;
     cursor: pointer !important;
@@ -81,32 +82,7 @@ small, .font_small {font-size: 0.618em;}
     font-weight: normal !important;
     padding-right: 16px !important;
     padding-left: 16px !important;
-    min-width: 51.77708763999664px !important;
-    background-image: none;
-    outline: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.btn-bright-blue, .btn-dk-gray {
-    transition-duration: 0.4s;
-    color: white;
-    cursor: pointer !important;
-    text-align: center !important;
-    text-decoration: none !important;
-    text-decoration-line: none;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
-    border: 2px solid transparent;
-    border-radius: 16px !important;
-    width: auto !important;
-    letter-spacing: undefined !important;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
-    font-weight: normal !important;
-    padding-right: 16px !important;
-    padding-left: 16px !important;
-    min-width: 51.77708763999664px !important;
+    min-width: 50px !important;
     background-image: none;
     outline: 0;
     -webkit-box-shadow: none;
@@ -121,13 +97,13 @@ small, .font_small {font-size: 0.618em;}
     background-color: #373E50
 }
 
-.btn-dk-blue {
-    background: #373E50;
-}
+/* .btn-dk-blue {
+    background: #334B6F;
+} */
 
-.btn-dk-blue:hover {
+/* .btn-dk-gray:hover {
     background-color: #B1C6D2
-}
+} */
 
 .btn-tan {
     background: #D1AB8C;
@@ -145,6 +121,34 @@ small, .font_small {font-size: 0.618em;}
     background-color: #545454;
 }
 
+
+/* round buttons */
+.btn-bright-blue, .btn-dk-blue {
+    transition-duration: 0.4s;
+    color: white;
+    cursor: pointer !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    border: 2px solid transparent;
+    border-radius: 16px !important;
+    width: auto !important;
+    letter-spacing: undefined !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    font-weight: normal !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    min-width: 50px !important;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
 .btn-bright-blue {
     background-color: #1BA5E1;
 }
@@ -155,12 +159,12 @@ small, .font_small {font-size: 0.618em;}
     color: #4C4C4B;
 }
 
-.btn-dk-gray {
-    background-color: #4C4C4B;;
+.btn-dk-blue {
+    background-color: #334B6F;
     color: white;
 }
 
-.btn-dk-gray:hover {
+.btn-dk-blue:hover {
     background-color: white;
     border: 1px solid #4C4C4B;
     color: #4C4C4B;
@@ -226,7 +230,7 @@ small, .font_small {font-size: 0.618em;}
 }
 
 .dk-blue {
-    background-color: #373E50;
+    background-color: #334B6F;
 }
 
 .med-gray {
